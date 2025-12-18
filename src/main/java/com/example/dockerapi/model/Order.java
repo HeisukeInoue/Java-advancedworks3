@@ -3,18 +3,20 @@ package com.example.dockerapi.model;
 public class Order {
 
     private int id;
-    private String product_name;
+    private String name;
     private int quantity;
+    private int userid;
 
     // デフォルトコンストラクタ
     public Order() {
     }
 
     // 全フィールドのコンストラクタ
-    public Order(int id, String product_name, int quantity) {
+    public Order(int id, String name, int quantity, int userid) {
         this.id = id;
-        this.product_name = product_name;
+        this.name = name;
         this.quantity = quantity;
+        this.userid = userid;
     }
 
     // Getter と Setter
@@ -27,11 +29,11 @@ public class Order {
     }
 
     public String getName() {
-        return product_name;
+        return name;
     }
 
-    public void setName(String product_name) {
-        this.product_name = product_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getQuantity() {
@@ -42,4 +44,11 @@ public class Order {
         this.quantity = quantity;
     }
 
+    public int getUserid() {
+        return userid;
+    }
+
+    public void setUserid(int userid) {
+        this.userid = userid;
+    }
 }
