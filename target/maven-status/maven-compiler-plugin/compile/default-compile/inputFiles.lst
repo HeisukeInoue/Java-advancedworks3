@@ -1,4 +1,8 @@
 /app/src/main/java/com/example/dockerapi/DockerApiApplication.java
 /app/src/main/java/com/example/dockerapi/controller/HelloController.java
+/app/src/main/java/com/example/dockerapi/controller/UserController.java
 /app/src/main/java/com/example/dockerapi/model/Order.java
 /app/src/main/java/com/example/dockerapi/model/User.java
+/app/src/main/java/com/example/dockerapi/model/UserWithOrders.java
+/app/src/main/java/com/example/dockerapi/repository/UserRepository.java
+/app/src/main/java/com/example/dockerapi/service/UserService.java
